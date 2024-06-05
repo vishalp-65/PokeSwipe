@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Mynerve&display=swap");
+
+.mynerve-regular {
+    font-family: "Mynerve", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
 html {
     --line-color: #e5e7eb;
 }
@@ -12,4 +20,8 @@ html.dark {
 
 .borderBlack {
     @apply border border-black/10;
+}
+
+body {
+    font-family: "Mynerve", cursive;
 }
