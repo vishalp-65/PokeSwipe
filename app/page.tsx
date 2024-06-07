@@ -4,7 +4,7 @@ import HomeCard from "@/components/card";
 
 export default function Home() {
     return (
-        <div className="flex w-full items-start justify-center">
+        <div className="flex w-full items-start justify-center my-10">
             <HomeCard />
         </div>
     );

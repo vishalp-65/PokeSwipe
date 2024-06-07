@@ -20,7 +20,7 @@ export default function RootLayout({
         <html lang="en">
             <body
                 className="bg-gray-50 text-gray-950 
-              relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90"
+              relative dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90"
             >
                 <div
                     className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] 
