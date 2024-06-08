@@ -7,7 +7,7 @@ type Props = {
 
 export default function DummyCard(props: Props) {
     return (
-        <div className={`m-[${props.margin}rem]`}>
+        <div className={`m-[${props.margin}px]`}>
             <div
                 className={`bg-[#e9ecef] dark:bg-[#202225] absolute left-0 right-0 border-gray-800 
             dark:border-gray-500 border-2 h-[25rem] rounded-lg z-${props.zInd} mt-${props.margin}`}

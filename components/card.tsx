@@ -8,6 +8,12 @@ export default function HomeCard() {
             <Image width={170} height={170} src={logo} alt="pokeLogo" />
 
             <div>
+                <div className="relative">
+                    <DummyCard zInd={-1} margin={2} />
+                </div>
+                <div className="relative">
+                    <DummyCard zInd={-2} margin={5} />
+                </div>
                 <div
                     className="bg-[#e9ecef] dark:bg-[#202225] relative border-gray-800 
                             dark:border-gray-500 border-2 h-[25rem] w-[23rem] rounded-lg"
@@ -39,12 +45,6 @@ export default function HomeCard() {
                             </button>
                         </div>
                     </div>
-                </div>
-                <div className="relative">
-                    <DummyCard zInd={-1} margin={2} />
-                </div>
-                <div className="relative">
-                    <DummyCard zInd={-2} margin={5} />
                 </div>
             </div>
             {/* <DummyCard ind={-3} /> */}
