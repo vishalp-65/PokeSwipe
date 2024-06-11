@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import ThemeContextProvider from "@/context/theme-context";
 import ThemeSwitch from "@/components/theme-switch";
+import { FavouritesProvider } from "../context/FavouritesContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,7 +35,7 @@ export default function RootLayout({
                     dark:bg-[#946263]"
                 />
                 <ThemeContextProvider>
-                    {children}
+                    <FavouritesProvider>{children}</FavouritesProvider>
                     <ThemeSwitch />
                 </ThemeContextProvider>
             </body>
